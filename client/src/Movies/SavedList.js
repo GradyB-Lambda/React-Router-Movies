@@ -13,4 +13,3 @@ export default function SavedList(props) {
   );
 }
 
-export default SavedList;

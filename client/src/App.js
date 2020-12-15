@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Movie from "./Movies/Movie";
+import Movie from './Movies/Movie';
 import MovieList from "./Movies/MovieList"
 import SavedList from './Movies/SavedList';
 
@@ -43,5 +43,3 @@ export default function App () {
     </div>
   );
 };
-
-export default App;

@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 
 export default function Movie(props) {
   const [movie, setMovie] = useState();
-
   const { id } = useParams();
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
 
@@ -55,4 +54,3 @@ export default function Movie(props) {
   );
 }
 
-export default Movie;
